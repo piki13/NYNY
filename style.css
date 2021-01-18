@@ -4,13 +4,13 @@
 
 font-family: Bellota-Bold;
 
-src:url(font/Bellota-Bold.otf);
+src:url(Bellota-Bold.otf);
 
 }
 @font-face
 {
 font-family:Lato-Bold;
-src:url(font/Lato-Bold.ttf);
+src:url(Lato-Bold.ttf);
 }
 body
 {
