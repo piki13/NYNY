@@ -26,6 +26,7 @@ padding:0;
 #tlo
 {
 	background-image: url("bobo.png"), url("bobo.png");
+	background-size:cover;
 	height:260vw;
 	width:100%
 }
@@ -907,6 +908,7 @@ font-size: 2.5vw;
 {
 	background-image: url("bobo.png"), url("bobo.png"),url("bobo.png");
 	height:635.2vw;
+	background-size:cover;
 	max-width:900px;
 }
 #mobmenu
