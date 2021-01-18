@@ -830,6 +830,7 @@ font-size: 2.5vw;
 	left:15.6vw;
 	width:44.7vw;
 	height:28vw;
+	border-radius: 35px;
 }
 #Czym
 {
@@ -1594,6 +1595,7 @@ font-size: 3.4vw;
 	height:52.2vw;
 	left:0;
 	width:100%;
+	border-radius: 35px;
 }
 #Czym
 {
