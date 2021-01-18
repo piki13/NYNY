@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<title>Nyny</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Nurture Your Newborn  Youngling"/>
+		<meta name="keywords" content="kołyska,"/>
+		<meta name="author" content="Paulina" />
+		<link rel="stylesheet" href=" style.css ">
+		<script src="jq.js"></script>
+	</head>
+	<body>
+	<script src="jq.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('#MENU').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('#MENU').addClass('sticky');
+	} else {
+		$('#MENU').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+	</script>
+			<header id="NAGLOWEK">
+			<img src="pl.svg" class="plflag"></img>
+			<img src="gb.svg" class="gbflag"></img>
+			<img src="nyny.svg" class="obrazek"></img>
+			<p id="NYNY">NYNY</p>
+			<img src="stars.svg" class="stars"></img>
+			<p id="Nurture"> Nurture Your Newborn Youngling</p>
+			<a href="https://www.instagram.com"><img src="Instagram.svg" class="insta"></img></a>
+			<a href="https://www.facebook.com"><img src="Facebook.svg" class="fb"></img></a>
+			
+			</header>
+			<div id="mobmenu">
+			<div class="button6"><a href="#Czym"><img src="1.svg" class="b1"></img></a></div>
+				<div class="button7"><a href="#Jak"><img src="2.svg" class="b1"></img></a></div>
+				<div class="button8"><a href="#Opinie"><img src="3.svg" class="b1"></img></a></div>
+				<div class="button9"><a href="#Kup"><img src="4.svg" class="b1"></img></a></div>
+				<div class="button10"><a href="#Onas"><img src="5.svg" class="b1"></img></a></div>
+			</div>
+			<div id="tlo">
+			<nav id="MENU">
+				<div class="button1"><a id="a1" href="#Czym">Czym jest NYNY?</a></div>
+				<div class="button2"><a id="a2"href="#Jak">Jak działa kołyska?</a></div>
+				<div class="button3"><a id="a3"href="#Opinie">Opinie</a></div>
+				<div class="button4"><a id="a4"href="#Kup">Kup produkt</a></div>
+				<div class="button5"><a id="a5" href="#Onas">O nas</a></div>
+			</nav>
+			<article id="TRESC">
+			<div class="blok1">
+			</div>
+			<div class="tresc1">
+			<a id="Czym"></a>
+			<img src="kolyska1.svg" class="kolyska1"></img>
+			<p> NYNY to inteligentna kołyska, która reaguje na płacz dziecka delikatnie go kołysząc i puszczając biały szum imitujący dźwięki, które bobas słyszy w brzuchu mamy. <br><br></p>
+
+   <p>Wyposażenie dodatkowe to między innymi monitor bezdechu, sensory sprawdzające: temperaturę dziecka, wagę, temperaturę powietrza oraz stan jego zanieczyszczeń i ciśnienia. <br><br></p>
+
+   <p>Dla wygody rodzica zawiera sensor zapachowy informujący o konieczności zmiany pieluszki. Całość połączona jest ze smartwatchem oraz aplikacją w telefonie.</p>
+			
+			
+			</div>
+			<div class="blok2"></div>
+			<div class="tresc2">
+			<a id="Jak"></a>
+			<p class="tytul">Jak działa kołyska?</p>
+			<img src="wideo.svg" id="wideo"></img>
+			<div id="anim"></div>
+			<div id="anim2"></div>
+			</div>
+			<div class="blok3"></div>
+			<div class="tresc3">
+			<a id="Opinie"></a>
+			<p class="tytul">Opinie</p>
+			<img src="face1.svg" id="face1"></img>
+			<div id="opinia1">
+			<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis blandit in quam massa, sed. Arcu nam ut mattis dis tortor tincidunt. Ut rhoncus tristique ante interdum arcu.</p>
+			</div>
+			<img src="face2.svg" id="face2"></img>
+			<div id="opinia2">
+			<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis blandit in quam massa, sed. Arcu nam ut mattis dis tortor tincidunt. Ut rhoncus tristique ante interdum arcu.</p>
+			</div>
+			<img src="face3.svg" id="face3"></img>
+			<div id="opinia3">
+			<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis blandit in quam massa, sed. Arcu nam ut mattis dis tortor tincidunt. Ut rhoncus tristique ante interdum arcu.</p>
+			</div>
+			
+			</div>
+			<div class="blok4"></div>
+			<div class="tresc4">
+			<a id="Kup"></a>
+			<img src="kolyska2.svg" class="kolyska2"></img>
+			<p class="tytul">Kup produkt</p>
+			<p id="opisbut1">Imię</p>
+			<input type="text" name="imie" id="imie"><br>
+			<p id="opisbut2">Nazwisko</p>
+			<input type="text" name="nazwisko" id="nazwisko"><br>
+			<p id="opisbut3">Nr telefonu</p>
+			<input type="text" name="telefon" id="telefon"><br>
+			<p id="opisbut4">Adres e-mail</p>
+			<input type="text" name="Adresemail" id="adresemail"><br>
+			<p id="opisbut5">Miasto</p>
+			<input type="text" name="miasto" id="miasto"><br>
+			<p id="opisbut6">Ulica</p>
+			<input type="text" name="ulica" id="ulica"><br>
+			<p id="opisbut7">Nr domu/lokalu</p>
+			<input type="text" name="nrdomu" id="nrdomu"><br>
+			 <input type="submit" value="Przejdź do płatności" id="przejdz"> 
+			</div>
+			<div class="blok5"></div>
+			<div class="tresc5">
+			<a id="Onas"></a>
+			<p class="tytul">O nas</p>
+			<p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis blandit in quam massa, sed. Arcu nam ut mattis dis tortor tincidunt. Ut rhoncus tristique ante interdum arcu.</p>
+
+  <p class="lorem2">Vulputate turpis vitae praesent ut porttitor vitae ut aliquet. Euismod commodo, arcu turpis aliquam dictumst nibh cras. Bibendum tempor lectus ullamcorper ullamcorper.</p>
+ <p class="lorem2">Rutrum volutpat quam odio pellentesque quam risus tincidunt blandit. Eu egestas risus amet orci, nulla feugiat euismod tincidunt. Eget sit aliquet posuere elit egestas consequat quisque magna pretium.</p>
+			<img src="tele.svg" id="tele"></img>
+			<p id="fon">+48 765 432 198</p>
+			<img src="mail.svg" id="mail"></img>
+			<p id="email">nyny@ekid.pl</p>
+			<img src="lokalizacja.svg" id="lokalizacja"></img>
+			<p id="lokacja">ul. 3 maja 17<br>
+							66-543 Pacanowo<br>
+							Polska</p>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1342.1708428385928!2d21.040803684886598!3d50.40014795492543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d60280e0751df%3A0xf64bf1f575d0939b!2s28-133%20Pacan%C3%B3w!5e0!3m2!1spl!2spl!4v1610841839135!5m2!1spl!2spl" id="mapa" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			
+			</div>
+			</article>
+			</div>
+			<footer id="STOPKA">Stworzono przez nynyproject sp z.o.o. nynyproject@ekid.pl +48  765 432 198</footer>
+	</body>
+</html>
